@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Library</title>
+    <style>
+    </style>
+    
+</head>
+<body>
+    <button onclick="myFunction()">ADD NEW BOOK</button>
+    <button onclick="cleanfn()">Restrat</button>
+    <form class="form">
+        <input type="text" id="title" placeholder="Book Title"/><br>
+        <input type="text" id="author" placeholder="Author"/><br>
+        <input type="text" id="pages" placeholder="Number of pages"/><br>
+        <p>Please select you have read or not:</p>
+        <div id="status">
+        <input type="radio" id="r1" name="read" value="read" checked="checked">
+        <label for="read">Read</label>
+        <input type="radio" id="r2" name="read" value="notyet">
+        <label for="notyet">Not yet</label><br>
+        </div>
+        <button type="submit">Add to Library</button>
+        
+        
+    </form>
+    <hr>
+    <div id="main"></div>
+
+
+<script src="./bookSelf.js"></script>
+</body>
+</html>
